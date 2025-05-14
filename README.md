@@ -44,6 +44,8 @@ eso-aws-secret-eks-terraform/
 │   ├── outputs.tf
 │   ├── variables.tf
 │   └── eks-irsa.tf
+│   ├── vpc.tf
+│   └── terraform.tfvars
 ├── manifests/
 │   ├── secret-store.yaml
 │   ├── external-secret.yaml
