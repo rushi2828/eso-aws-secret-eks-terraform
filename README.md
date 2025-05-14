@@ -38,7 +38,7 @@ By using IRSA, the project ensures secure, short-lived credential access to AWS 
 
 ### 🗂️ Project Structure
 ```
-external-secrets-eks-irsa/
+eso-aws-secret-eks-terraform/
 ├── terraform/
 │   ├── main.tf
 │   ├── outputs.tf
