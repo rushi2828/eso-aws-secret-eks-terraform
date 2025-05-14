@@ -45,9 +45,8 @@ eso-aws-secret-eks-terraform/
 │   ├── variables.tf
 │   └── eks-irsa.tf
 ├── manifests/
-│   ├── 01-secret-store.yaml
-│   ├── 02-external-secret.yaml
-│   └── 03-test-pod.yaml
+│   ├── secret-store.yaml
+│   ├── external-secret.yaml
 ├── aws/
 │   └── create-secret.sh
 ├── README.md
