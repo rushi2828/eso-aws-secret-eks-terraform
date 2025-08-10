@@ -27,4 +27,8 @@ module "eso" {
   namespace       = "external-secrets"
   service_account = module.irsa.service_account_name
   irsa_role_arn   = module.irsa.irsa_role_arn
+
+  depends_on = [
+    module.eks
+  ]
 }
