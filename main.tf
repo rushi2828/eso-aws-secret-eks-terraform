@@ -17,6 +17,7 @@ module "irsa" {
   source               = "./modules/irsa"
   cluster_name         = module.eks.cluster_name
   oidc_provider_arn    = module.eks.oidc_provider_arn
+  oidc_provider_url    = module.eks.oidc_provider_url
   namespace            = "external-secrets"
   service_account_name      = "external-secrets-sa"
   secrets_manager_access = true

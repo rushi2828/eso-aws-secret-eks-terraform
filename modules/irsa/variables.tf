@@ -18,3 +18,7 @@ variable "secrets_manager_access" {
   type    = bool
   default = false
 }
+
+variable "oidc_provider_url" {
+  type = string
+}
